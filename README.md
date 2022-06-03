@@ -12,6 +12,6 @@ Calculadora App con la que podras mantener las cuentas claras en tu día a día,
 
 ## 👀 Demo
 
-[Click here](https://todo-y3hs-app.netlify.app/)
+[Click here](https://calculadora-y3hs.netlify.app/)
 
 
