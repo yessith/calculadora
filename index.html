@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="robots" content="index,follow" />
+		<meta name="description" content="" />
+		<title>Document</title>
+		<link rel="canonical" content="" />
+		<link rel="icon" href="./assets/img/favicon-32x32.png" />
+		<link rel="apple-touch-icon" href="" />
+		<link rel="stylesheet" type="text/css" href="./assets/styles/styles.css" />
+	</head>
+
+	<body class="theme-1" id="container">
+		<main class="calculator">
+			<header class="calculator__header">
+				<h1>calc</h1>
+				<section class="calculator__theme">
+					<h2>Theme</h2>
+					<div class="calculator__theme--controls">
+						<div class="calculator__theme--labels">
+							<label for="theme-1">1</label>
+							<label for="theme-2">2</label>
+							<label for="theme-3">3</label>
+						</div>
+						<div class="calculator__theme--switch">
+							<input type="radio" value="theme-1" name="theme" id="theme-1" checked />
+							<label for="theme-1"></label>
+							<input type="radio" value="theme-2" name="theme" id="theme-2" />
+							<label for="theme-2"></label>
+							<input type="radio" value="theme-3" name="theme" id="theme-3" />
+							<label for="theme-3"></label>
+						</div>
+					</div>
+				</section>
+			</header>
+			<section class="calculator__container">
+				<div class="calculator__screen" id="screen"></div>
+				<div class="calculator__keypad" id="keypad">
+					<button type="button" value="7" id="button-7" class="btn number">7</button>
+					<button type="button" value="8" id="button-8" class="btn number">8</button>
+					<button type="button" value="9" id="button-9" class="btn number">9</button>
+					<button type="button" value="delete" id="button-delete" class="btn control">DEL</button>
+					<button type="button" value="4" id="button-4" class="btn number">4</button>
+					<button type="button" value="5" id="button-5" class="btn number">5</button>
+					<button type="button" value="6" id="button-6" class="btn number">6</button>
+					<button type="button" value="+" id="button-plus" class="btn operator">+</button>
+					<button type="button" value="1" id="button-1" class="btn number">1</button>
+					<button type="button" value="2" id="button-2" class="btn number">2</button>
+					<button type="button" value="3" id="button-3" class="btn number">3</button>
+					<button type="button" value="-" id="button-minus" class="btn operator">-</button>
+					<button type="button" value="." id="button-decimal" class="btn number decimal">.</button>
+					<button type="button" value="0" id="button-0" class="btn number">0</button>
+					<button type="button" value="/" id="button-divide" class="btn operator">/</button>
+					<button type="button" value="x" id="button-times" class="btn operator">&times;</button>
+					<button type="button" value="reset" id="button-reset" class="btn control">RESET</button>
+					<button type="button" value="equals" id="button-equals" class="btn equal operator">
+						=
+					</button>
+				</div>
+			</section>
+		</main>
+		<script type="module" src="./assets/js/index.js"></script>
+	</body>
+</html>
